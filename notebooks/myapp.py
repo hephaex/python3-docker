@@ -1,13 +1,14 @@
-# def say_hi():
-#     print("hi")
-#
-# say_hi()
+class User:
+    pass
 
-# def say_hi(name, age):
-def say_hi(name, age = 20):
-    print("hi {0} ({1})".format(name, age))
+# 인스턴스
+tom = User()
+tom.name = "tom"
+tom.score = 20
 
-say_hi("tom", 23)   # tom (23)
-say_hi("bob", 21)   # bob (21)
-say_hi("steve")     # steve (20)
-say_hi(age = 18, name = "rick")
+bob = User()
+bob.name = "bob"
+bob.level = 5
+
+print(tom.name)
+print(bob.level)

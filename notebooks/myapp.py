@@ -1,10 +1,21 @@
-print(type(1))                 #1
-## <class 'int'>
-print(isinstance(1, int))      #2
-## True
-print(1 + 1)                   #3
-## 2
-print(1 + 1.0)                 #4
-## 2.0
-print(type(2.0))
-## <class 'float'>
+# + - * / // % **
+
+x = 10
+print(x / 3) # 3.33...
+print(x // 3) # 3
+print(x % 3) # 1
+print(x ** 2) # 100
+
+y = 4
+# y = y + 12
+y += 12
+print(y) # 16
+
+# and or not
+print(True and False) # False
+print(True or False) # True
+print(not True) # False
+
+# + *
+print("hello " + "world")
+print("hello " * 3)

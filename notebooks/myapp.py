@@ -1,21 +1,8 @@
-# + - * / // % **
+name = "Mario"
+score = 52.8
 
-x = 10
-print(x / 3) # 3.33...
-print(x // 3) # 3
-print(x % 3) # 1
-print(x ** 2) # 100
+print("name: %s, score: %f" % (name, score))
+print("name: %-10s, score: %10.2f" % (name, score))
 
-y = 4
-# y = y + 12
-y += 12
-print(y) # 16
-
-# and or not
-print(True and False) # False
-print(True or False) # True
-print(not True) # False
-
-# + *
-print("hello " + "world")
-print("hello " * 3)
+print("name: {0}, score: {1}".format(name, score))
+print("name: {0:>10s}, score: {1:<10.2f}".format(name, score))

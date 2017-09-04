@@ -1,8 +1,13 @@
-name = "Mario"
-score = 52.8
+# if
 
-print("name: %s, score: %f" % (name, score))
-print("name: %-10s, score: %10.2f" % (name, score))
+score = int(input("score ? "))
 
-print("name: {0}, score: {1}".format(name, score))
-print("name: {0:>10s}, score: {1:<10.2f}".format(name, score))
+# > >= < <= == !=
+if score > 80:
+    print("Great!")
+  elif score > 60:
+    print("Good!")
+  else:
+    print("so so ...")
+
+print("Great!" if score > 80 else "so so ...")

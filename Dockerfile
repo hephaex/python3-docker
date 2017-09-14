@@ -1,5 +1,8 @@
 FROM alpine:3.6
 
+# Python docker image based on Alpine Linux 3.6 
+MAINTAINER Mario Cho <hephaex@gmail.com>
+
 # ensure local python is preferred over distribution python
 ENV PATH /usr/local/bin:$PATH
 
